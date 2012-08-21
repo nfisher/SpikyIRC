@@ -6,8 +6,8 @@ class ssh {
   service { 'sshd':
     ensure     => running,
     # Use reload instead of restart so the session is maintained
-    restart    => '/etc/init.d/ssh reload'
-    enable     => true
+    restart    => '/etc/init.d/ssh reload',
+    enable     => true,
     hasrestart => true,
     hasstatus  => true,
   }
@@ -20,3 +20,4 @@ class ssh {
     content => 'puppet:///modules/ssh/sshd_config',
   }
 }
+

@@ -1,3 +1,4 @@
+puppet/release_*.txt
 target
 .DS_Store
 *.swp

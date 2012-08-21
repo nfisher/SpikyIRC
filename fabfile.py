@@ -18,7 +18,7 @@ def _pkg_asset(asset_name, asset_path, latest_revision):
   Tar a given asset and append the revision number to the tarball.
   """
   local('mkdir -p target')
-  local('touch {0}/release_{1}.txt'.format(asset_path, latest_revision))
+  local('date > {0}/release_{1}.txt'.format(asset_path, latest_revision))
   local('tar czf target/{0}_{1}.tgz {2}'.format(asset_name, latest_revision, asset_path))
 
 def _revision():
