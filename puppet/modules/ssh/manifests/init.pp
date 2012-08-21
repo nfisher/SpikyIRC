@@ -13,13 +13,13 @@ class ssh {
   }
 
   file { 'sshd_config':
-    ensure  => present,
-    path    => '/etc/ssh/sshd_config',
-    mode    => '0600',
-    owner   => 'root',
-    group   => 'root',
-    content => 'puppet:///modules/ssh/sshd_config',
-    notify  => Service['sshd'],
+    ensure => present,
+    path   => '/etc/ssh/sshd_config',
+    mode   => '0600',
+    owner  => 'root',
+    group  => 'root',
+    source => 'puppet:///modules/ssh/sshd_config',
+    notify => Service['sshd'],
   }
 }
 
