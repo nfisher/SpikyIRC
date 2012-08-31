@@ -1,35 +1,9 @@
 #	$OpenBSD: sshd_config,v 1.80 2008/07/02 02:24:18 djm Exp $
 
-# This is the sshd server system-wide configuration file.  See
-# sshd_config(5) for more information.
-
 # This sshd was compiled with PATH=/usr/local/bin:/bin:/usr/bin
 
-# The strategy used for options in the default sshd_config shipped with
-# OpenSSH is to specify options with their default value where
-# possible, but leave them commented.  Uncommented options change a
-# default value.
-
-#Port 22
-Port 22022
-#AddressFamily any
-#ListenAddress 0.0.0.0
-#ListenAddress ::
-
-# Disable legacy (protocol version 1) support in the server for new
-# installations. In future the default will change to require explicit
-# activation of protocol 1
+Port 22
 Protocol 2
-
-# HostKey for protocol version 1
-#HostKey /etc/ssh/ssh_host_key
-# HostKeys for protocol version 2
-#HostKey /etc/ssh/ssh_host_rsa_key
-#HostKey /etc/ssh/ssh_host_dsa_key
-
-# Lifetime and size of ephemeral version 1 server key
-#KeyRegenerationInterval 1h
-#ServerKeyBits 1024
 
 # Logging
 # obsoletes QuietMode and FascistLogging
@@ -41,6 +15,9 @@ SyslogFacility AUTHPRIV
 
 #LoginGraceTime 2m
 #PermitRootLogin yes
+PermitRootLogin no
+MaxAuthTries 3
+MaxSessions 10
 #StrictModes yes
 #MaxAuthTries 6
 #MaxSessions 10
@@ -79,9 +56,9 @@ ChallengeResponseAuthentication no
 
 # GSSAPI options
 #GSSAPIAuthentication no
-GSSAPIAuthentication yes
+GSSAPIAuthentication no
 #GSSAPICleanupCredentials yes
-GSSAPICleanupCredentials yes
+GSSAPICleanupCredentials no
 #GSSAPIStrictAcceptorCheck yes
 #GSSAPIKeyExchange no
 
@@ -103,11 +80,13 @@ AcceptEnv LC_PAPER LC_NAME LC_ADDRESS LC_TELEPHONE LC_MEASUREMENT
 AcceptEnv LC_IDENTIFICATION LC_ALL LANGUAGE
 AcceptEnv XMODIFIERS
 
-#AllowAgentForwarding yes
+AllowAgentForwarding no
+X11Forwarding no
+UseDNS no
+PermitOpen localhost:6667
+#ForceCommand echo 'Sorry no dice.'
 #AllowTcpForwarding yes
 #GatewayPorts no
-#X11Forwarding no
-X11Forwarding yes
 #X11DisplayOffset 10
 #X11UseLocalhost yes
 #PrintMotd yes
@@ -120,7 +99,6 @@ X11Forwarding yes
 #ClientAliveInterval 0
 #ClientAliveCountMax 3
 #ShowPatchLevel no
-#UseDNS yes
 #PidFile /var/run/sshd.pid
 #MaxStartups 10
 #PermitTunnel no
@@ -130,7 +108,7 @@ X11Forwarding yes
 #Banner none
 
 # override default of no subsystems
-Subsystem	sftp	/usr/libexec/openssh/sftp-server
+#Subsystem	sftp	/usr/libexec/openssh/sftp-server
 
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
