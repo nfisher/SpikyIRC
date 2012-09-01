@@ -5,7 +5,7 @@ class sudoers {
     mode   => '0440',
     owner  => 'root',
     group  => 'root',
-    source => "puppet:///$module/sudoers",
+    source => "puppet:///modules/sudoers/sudoers",
   }
 }
 

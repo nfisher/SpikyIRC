@@ -9,7 +9,9 @@ class ircd {
     owner   => 'ircd',
     group   => 'ircd',
     mode    => '0640',
-    content => "puppet:///$module/ircd.conf",
+    source  => "puppet:///modules/ircd/ircd.conf",
+    require => Package['ircd-hybrid'],
+    notify  => Service['ircd'],
   }
 
   service {'ircd':
@@ -19,5 +21,5 @@ class ircd {
     hasstatus  => true,
     require    => Package['ircd-hybrid'],
   }
-
 }
+
