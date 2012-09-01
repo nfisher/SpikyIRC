@@ -5,6 +5,9 @@ node default {
   class { 'epel': stage => 'epel' }
   include ircd
   include ssh
+  # Don't modify sudoers so vagrant provision still works.
+  if "localhost.localdomain" != $::fqdn {
   include sudoers
+  }
   include users
 }
