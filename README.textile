@@ -1,0 +1,7 @@
+h2. SpikyIRC
+
+This is a spike to put IRC behind SSH based connections.  Primary dependencies are;
+
+Fabric 1.4.3
+Vagrant 1.0.3
+VirtualBox 4.1.x
