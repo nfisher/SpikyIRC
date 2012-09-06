@@ -17,6 +17,7 @@ class ircd {
   service {'ircd':
     ensure     => 'running',
     enable     => true,
+    restart    => '/sbin/service ircd reload',
     hasrestart => true,
     hasstatus  => true,
     require    => Package['ircd-hybrid'],
