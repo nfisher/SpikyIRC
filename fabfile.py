@@ -43,17 +43,13 @@ def bootstrap():
   sudo('rpm -ivh --force --quiet {0}'.format(PUPPET_RELEASE_RPM))
   sudo('yum install -q -y {0} {1}'.format(PUPPET_PACKAGE, RUBYGEM_PKG))
 
+
 def clean():
   """
   Clean the locally generated assets.
   """
   local('rm -rf target')
 
-def package():
-  """
-  Package all assets.
-  """
-  pkg_puppet()
 
 def pkg_puppet(latest_revision = _revision()):
   """
