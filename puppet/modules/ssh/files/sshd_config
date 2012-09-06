@@ -108,7 +108,7 @@ PermitOpen localhost:6667
 #Banner none
 
 # override default of no subsystems
-#Subsystem	sftp	/usr/libexec/openssh/sftp-server
+Subsystem	sftp	/usr/libexec/openssh/sftp-server
 
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
