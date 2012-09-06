@@ -1,9 +1,11 @@
 servers = (
+  {
   address     = "localhost";
   port        = "6667";
   password    = "secret";
   chatnet     = "twnet";
   autoconnect = "yes";
+  },
 );
 
 chatnets = {
