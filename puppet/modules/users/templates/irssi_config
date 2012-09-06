@@ -1,0 +1,27 @@
+chatnets = {
+  twnet = {
+    type = "IRC";
+  };
+}
+
+servers = {
+  address     = "localhost";
+  port        = "6667";
+  password    = "secret";
+  chatnet     = "twnet";
+  autoconnect = "yes";
+}
+
+channels = (
+  { name = "#townhall"; chatnet = "twnet"; autojoin = "yes"; },
+  { name = "#swdev";    chatnet = "twnet"; autojoin = "yes"; },
+  { name = "#devops";   chatnet = "twnet"; autojoin = "yes"; },
+);
+
+settings = {
+  core = {
+    nick = "<%= user %>";
+    quit_message = "Good-bye all!";
+    server_connect_timeout = "1min";
+  };
+}
