@@ -13,7 +13,7 @@ class collectd {
   file { 'collectd_swap':
     ensure  => file,
     path    => '/etc/collectd.d/swap.conf',
-    content => 'LoadPlugin swap',
+    content => "LoadPlugin swap\n",
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
