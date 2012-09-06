@@ -2,6 +2,8 @@
 stage { 'epel': before => Stage['main'] }
 
 node default {
+  include collectd
+  include collectd::web
   class { 'epel': stage => 'epel' }
   include ircd
   include irssi
