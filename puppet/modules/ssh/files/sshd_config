@@ -110,6 +110,9 @@ PermitOpen localhost:6667
 # override default of no subsystems
 Subsystem	sftp	/usr/libexec/openssh/sftp-server
 
+Match User deployer
+  PermitOpen 127.0.0.1:80
+
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
 #	X11Forwarding no
