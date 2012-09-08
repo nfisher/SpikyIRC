@@ -10,12 +10,13 @@ class apache {
   }
 
   file { 'httpd_conf':
-    ensure => file,
-    path   => '/etc/httpd/conf/httpd.conf',
-    owner  => 'root',
-    group  => 'root',
-    mode   => '0644',
-    source => 'puppet:///modules/apache/httpd.conf',
-    notify => Service['httpd'],
+    ensure  => file,
+    path    => '/etc/httpd/conf/httpd.conf',
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+    source  => 'puppet:///modules/apache/httpd.conf',
+    notify  => Service['httpd'],
+    require => Package['httpd'],
   }
 }
