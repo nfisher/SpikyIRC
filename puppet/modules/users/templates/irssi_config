@@ -25,7 +25,7 @@ channels = (
 
 settings = {
   core = {
-    nick = "<%= user %>";
+    nick = "<%= username %>";
     quit_message = "Good-bye all!";
     server_connect_timeout = "1min";
   };
