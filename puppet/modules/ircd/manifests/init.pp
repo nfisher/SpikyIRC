@@ -17,6 +17,7 @@ class ircd {
   service {'ircd':
     ensure     => 'running',
     enable     => true,
+    # Use reload so hopefully not everyone gets dropped.
     restart    => '/sbin/service ircd reload',
     hasrestart => true,
     hasstatus  => true,

@@ -6,7 +6,7 @@ class ssh {
   service { 'sshd':
     ensure     => running,
     # Use reload instead of restart so the session is maintained
-    restart    => '/etc/init.d/sshd reload',
+    restart    => '/sbin/service sshd reload',
     enable     => true,
     hasrestart => true,
     hasstatus  => true,
