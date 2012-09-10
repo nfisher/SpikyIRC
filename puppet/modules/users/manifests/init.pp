@@ -13,6 +13,14 @@ class users {
     require => User['deployer'],
   }
 
+  ssh_authorized_key { 'deployer_key2':
+    ensure  => present,
+    key     => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC5U2M4XmaFit2AMOtrP01im9mkmizrl7heUq8KXXN+BFYLj8GMKTQSWpfb8uB7enh8KKuqhZLQ4FXAxY+j11UTDWmSAS/TMrj30YT6ZpKvKKO8S+ossqxoYaACiS2oTVVOtwkcoaP+S3uRjmH4crIOhuYiGbzGt0XLyDv9aH2J8bVWqcWw31P5NjzTAKWNhNfxFOVdRUissUPTxndgzow2KXJ51c50zWMM97rufseznqvTOFMrcHag7QEcxe1LCKw/5RkUD8exAn336Hpcq57ipJvVb5jU6Yz21QIGuQgsJ6c07BASGGnDqQljO4NCVdR/ftszvQ56s8gUPqe/bkUx',
+    type    => 'rsa',
+    user    => 'deployer',
+    require => User['deployer'],
+  }
+
   users::irc {
     'nfisher': fullname => 'Nathan Fisher', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDHB/a1L7iEH/SMUBukLpUpCQgZboOEvc+0RHMQZ0JMC4iaxzwoAbbDRUvv2T39NRXaojk3cgAQ9D9piN91jU9qwgVTTRs4smHs/A1yxvlsZVL879Q6pTBQpXFYMCEL9rSVQtHK27mEVht5SOoephKoTgA2icOqtbNFdWyb27v/CEE/k9sKI4igJsIbLzhjN9TYQf8LW8d9DvCuNbgXSYUK6iK/7w6hmAlHMXhCSs2LsvkjEqLSgCgUo0FRnUX76dGBpoDNKe6jryPKMlGZN5A73yOF1mpTSw33KJRXi99Uq1jQiQRfIgwHd5YSaX/Q+4xpdBaoAyh5+A45fQBGmT63';
 
@@ -30,6 +38,18 @@ class users {
 
     'sdqali': fullname => 'Sadique Ali', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDZt5eGKHPSWrLNqTd+DqoZAF2HHDL++jzhuP3xgHmGXtsC+zT60dqF1ojBVGBnB7NxKWowwluC1KkRWpt7zBsEiZACpuNSzbIH5UXGOR0bPR0sSULf8WdokhIwUDrgdGh/daZo5FiXxbgYaadlhpBw7SdZVbYywyzMtxlE0shXxnzMoLyodHNAK/vN8BN7ITIcNF0hfJJx/C4N2+muBiGc4pBdSiiSjsZZyIycmT+KwqqpCdS5ZVIUTdfPyVVgr+Qpt8SbPbic7JXgQ0Oh6Vx6bY3xNCvh5+em0lvTZ3P5o1W37H/NjbHTH2qL7/MSecFiVsvxivzQpUE2nbd/GLgB';
 
-    'jbrechtel': fullname => 'James Bretchel', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCh10B3Vu0DU3+7Rf7yWkvRUEtqSQGZ+CedT4vbrL9/1pe7k2rIdEh4RRHEGIyHEz9f1csHYrVVhJnce3vXB5yyvB6FKD1wHnLvwp9Rc6PKilirofEpORTwjnPVgC1aUrI2rNJHhqUbuJ7wTfyjOGxGPYQ78nVopLmPq0fYSZD4fgKyn0uzic5Io1H65yqYyKA/O6/EfxVmEP7HmBt7/G9GzY+KEI8I2ze+4N9UXwd1E+PjWg2tXPKT6nmUBfeLsrCprETOnCWD2il8r3+YHvNH+EQZmVpdp8HIhO8T1AVRy7Bw7e7wU68lrWHkSASVvWO7ScA3pyRf8OI4LHsdP3Cr';
+    'jbrechtel': fullname => 'James Brechtel', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCh10B3Vu0DU3+7Rf7yWkvRUEtqSQGZ+CedT4vbrL9/1pe7k2rIdEh4RRHEGIyHEz9f1csHYrVVhJnce3vXB5yyvB6FKD1wHnLvwp9Rc6PKilirofEpORTwjnPVgC1aUrI2rNJHhqUbuJ7wTfyjOGxGPYQ78nVopLmPq0fYSZD4fgKyn0uzic5Io1H65yqYyKA/O6/EfxVmEP7HmBt7/G9GzY+KEI8I2ze+4N9UXwd1E+PjWg2tXPKT6nmUBfeLsrCprETOnCWD2il8r3+YHvNH+EQZmVpdp8HIhO8T1AVRy7Bw7e7wU68lrWHkSASVvWO7ScA3pyRf8OI4LHsdP3Cr';
+
+    'diptanuc': fullname => 'Diptanu Gon Chaudhury', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCyip0nDLs8IOhByLl3CgEO6wGB+zGaqULVW2K36DNrHtFb/G82fKTegtTEDjeezx33JP03rw+2mFgqQTZOmZyOep4WG52Aj4rlYBzDPAYdiA0xWYi35PY80QI2ETn/SxVe4mWMKEN3J6IUut979XO2h5Lo6xOeh69pTMwwQezwKeEqY1YI6cEd25OcGdDDY6OZNH83+IZ83oKkTcPgE1wzFiMssbuEzt4uJjrA3r/eNRCcZPT0GVQW7p8stYBkL039LTrsJk7jgkuXhtiRRif3yNJHkGJ9KOavpvmNgSPZqtyt6QlwmJD1snRbTJvhTIfPe7tDYTpqKngT9ZIPfjYl';
+
+    'srobinson': fullname => 'Scott Robinson', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCsfrqyDxMLs+LU+55NQlGEPsucDRe0phRS31Dc9cbIB80ptxuoKFKO8NtmHCsb3V9juVZrHFe+I9p+4B2YiERqpUe8diyzL05L+dhfvVJm2t5QM7Qp6cyQv+fnUmCc0B8Q2G8Vs5+it72s/DyymiGNnzkpKk03zzCxH8yMe7cqacm6dqmZZrdp5JUnYLOXOEK8Bse4kxBWne6XE3JuWP4IxN97XvehLfxvHvldu9GUjWKbZeMns2jn0J9ST78AzwDhUiUFXV2nr02GBof9A0dMA0PXnVKKzy+rYJ9GL1mb8a6rZ+rFn6K//sPGINcoPNQ3qtqLKRUfLHy5ZSyCeVpj';
+
+    'benbc': fullname => 'Ben Butler-Cole', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA1Ta5Gpqtrs5qDYfH1aN2qRJoIwGc4gzJkeomI7dCug7nM8mpGvGCOmtZ3ZPPZbMMRARx4O7TH7RaeVTqUA1lkSI8vH2flZSCmjl50liGfRVlzqrfhFtH16Vj+j++SH7iHyBEx1VF7tUc+NM9ETJnFPaOpko3DFRvxsAsF3nyVVQuJLFAnKgElA2wkeulD3LErE+SpaS/tDOfgXttnwHdC4JdGrDzijIw7ojYsM623YQ39XEmYUFVCLF+sv7DEWH6Z/8LxFkJ23JDS/Fo4q7BMhRk84bHMUC99yAVjp1HjpvK8j4xQsWCcrdYCbisiGGuVdIWsETLYGFLO8Nr+t39Bw==';
+
+    'pgm': fullname => 'Peter Gillard-Moss', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAqybTrrVOq9OT1KVLk1Fz+gyZF/CXeolyAMx+JL+OGOI8tRMhftQR0LjP4d3UBy/VJqqYsRX1gFTL8DqyfC4H9utpgzA/ji66jpbcp6PC/PtNVJn2FPQT8gpX44nx2kyHDmTk+ChyQ0hIsQAEVsa4vqWm6R3jmwXXeLS5iO19rfE2pLchxlRI9MFwyayutJR3CPFeVnkGh1GcoZ9/sdq5fRWSJops2lDzmC+JMIdGE0HRqsvsII/kLN0WzGyOqDqO+ek+Wcj811kCKzwSXtW8qNQDVErdC4zReYyuiT381nViz6SvmDvuYwagGbvTQqJ9v/GzkBeWtKHilM8P9/zLKw==';
+
+    'korny': fullname => 'Korny Sietsma', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAzKmNl42+3Sa39q4kYodfv4Neiu78dWSFdRGF1EcD8HXr441c0YfcH+w1E2O6LI/7xd4n9cd4D9YdPZVdbG60p+289ngWs8aaHplhAfP3J5BZj1VYi3pASdMPPZa085zIxkp45Sj5kaUg6mKlW5fkPabHWvrCHm5qcsy92el1E605H0xaN7UHVh7ul/wEoCCW6UehjK7d8DsbRN2XneiHYnP7IYSIEINZU69Y+Wd5w6kM45X+ghv1EDZy7suQerJ04g4czbV9/e45FN19WnjDgjazi0QOaCwhP+RlYTZqondLnCRRemBSULuGM7nJKG4+5TWaEd1sHIy2hSC6+e7eTQ';
+
+    'tcowling': fullname => 'Tom Cowling', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQD90tyonLAnLlkMhlyKnDGmAx6tBWVLwsw2K2cE7XDT/EvuRaPqlHDcwCPJ1hlhHF87e+y6QT6a+tH/RU6yxVKtNP+MGof6wiYjYLYZpgNo8usYc3fJwmuEel/xBfZAs6a/AHko9kTHG2r8ea64dYWSqWlFiHPgTrAtCt56GAxz2HerSjIFmb8UoODkx1F9bz3Axo7MIdEKeTqKOPxrYBkH7xQZ7VsJsQgYPbHHRV8IuxNC9+4vXMptTaK5OoZWX6ynherN3Ymr6j7Kt+fMJKWrVEJpd2A7qqgkUNJOKwESh/XIKFU3Eq6FshfThMhpc19Nu33f4WsaqSrOm9aq5rmN';
   }
 }

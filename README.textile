@@ -1,5 +1,9 @@
 h2. SpikyIRC
 
+Currently uptime monitoring is provided by pingdom and is located at the following url;
+
+http://stats.pingdom.com/5wtmryrerle9
+
 This is a spike to put IRC behind SSH based connections.  Primary dependencies are;
 
 Fabric 1.4.3
