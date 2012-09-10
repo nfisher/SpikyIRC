@@ -20,7 +20,11 @@ channels = (
 settings = {
   core = {
     nick = "<%= username %>";
+    user_name = "<%= username %>";
+    real_name = "<%= fullname %>";
     quit_message = "Good-bye all!";
     server_connect_timeout = "1min";
   };
+
+  "fe-text" = { actlist_sort = "refnum"; };
 };
