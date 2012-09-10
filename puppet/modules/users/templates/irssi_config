@@ -14,13 +14,7 @@ chatnets = {
 };
 
 channels = (
-  { name = "#townhall"; chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#swdev";    chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#devops";   chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#ux";       chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#testing";  chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#pm";       chatnet = "twnet"; autojoin = "yes"; },
-  { name = "#ba";       chatnet = "twnet"; autojoin = "yes"; },
+  { name = "#thoughtworks"; chatnet = "twnet"; autojoin = "yes"; },
 );
 
 settings = {
