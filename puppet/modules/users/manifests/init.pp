@@ -55,5 +55,7 @@ class users {
     'jimg': fullname => 'Jim Gumbley', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDBu62PcK1x0xdlp/4/8eDB5BmF3+rs4u1npWabRmJVTZGJUpoD/htUcTDiIWDWGgxDjOVAdv3SMDOuW0ZXTVFdmjavGvPoPXgScqF/FUJZ815KG/ol/KlTscVeOKFvOB4o6I3BNqkZxGq1Fv2ikBdvRJVs/lOkmHchN1Dq/ddjthdqk2px2FG6IN87Ln65X30/ROLhzse9UBZc5Oe+HNVznGbX42idptlvK3sq2qohu5bG23SHyaCtzruS4lX3ddHTlV/nxSwFmxs5Gbe7iz5e95i19N1CX9D17oWKOxkZBD+bUr31zmoAiazlPPxKAa7kLS7J7mUYmF6jaz9sK40p';
 
     'kief': fullname => 'Kief Morris', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAwaOjAEESTdtZzrircWLPKTZ3Crt0nhcak78ajV8b2etCaX1B305EZsqO9pi0r1QfeDufqaxLoEyytxoPf3OCkGgspK1G2JBBaNpvQzK2Jwn+OhddB/PiAzk+4ZITnSpANyoJymmHe6F9hbQzKBnjGl3Z8IqIDaqQcrkWSoma86bcuTQ55yCIuUtdDHD5B1E5TDX1FjYVwF/aSosaCzLs2mGNUFlf3UeSNDC44VS9uQaUqWRSoAzbc4WMLChrxByn3bP9g/QtX5Fw8OrXNOLJeG4f1DTmIfj20/UUcXjyaPjtNbpIaJx2jEh1awoV0Rh4v/JRcgZOPGkv8U16fyZIEw==';
+
+    'chilton': fullname => 'Chris Hilton', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC0ridBAPshP6tvKALCgyZO6CfkQDQVSPZJuuofGzMvTCTKg+jMgwPiGDfyyNrCCW4elV4ipnXK/uKgzXEnZjA6FP1duc6iJBOsK1gJ27pXQd5eyKqJAk7vmzev75EmuOLhUcHNQyiBk2gzWNljT3HMR7NRBnmZ2h95ag8pEgNjGTVUsVBFU8Ga9sZLyV/9pJL5Tn8q5MDguiOP+e7xjzdEuTdqU9U5FjxLZggTuYVZbzoqTg/NJFZ+MQJHQqxU6bl4WAOpjGmoj/tzJxjDWiTlskAyDg73UtmL1G9svMTnexStrrUoeTfvYEKeGNtrJfokxFGWybVHJGalcmuQDT2z';
   }
 }
