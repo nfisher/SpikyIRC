@@ -63,5 +63,7 @@ class users {
     'chilton': fullname => 'Chris Hilton', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC0ridBAPshP6tvKALCgyZO6CfkQDQVSPZJuuofGzMvTCTKg+jMgwPiGDfyyNrCCW4elV4ipnXK/uKgzXEnZjA6FP1duc6iJBOsK1gJ27pXQd5eyKqJAk7vmzev75EmuOLhUcHNQyiBk2gzWNljT3HMR7NRBnmZ2h95ag8pEgNjGTVUsVBFU8Ga9sZLyV/9pJL5Tn8q5MDguiOP+e7xjzdEuTdqU9U5FjxLZggTuYVZbzoqTg/NJFZ+MQJHQqxU6bl4WAOpjGmoj/tzJxjDWiTlskAyDg73UtmL1G9svMTnexStrrUoeTfvYEKeGNtrJfokxFGWybVHJGalcmuQDT2z';
 
     'pdowney': fullname => 'Pat Downey', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA21UcaXzHeWbOBa9vnxYtkIu6ugdV2E7/MFDpGGnooAql+s4LED41CTbiF2ECqwzpdPN5ty+wo/rhTStj8v73Ob188V6PMVXMGllT4lKtsAjPM+Rxy3HDh63syAIxXP3NbjZY+dKB6BorEuCEdXnpep8PycmcCMxqUf+cTwSMwW84Xqb/V6xIft2HyceRrIY2g7gPKpOewRbZ6DCQUPBt21Sfn2rc/18O6c8viQ5EI2yhebzPc0DMrl8NiiOyDnIsEefFSSqZ8m610zOXxqqFfTrqYhdXq6HkcJ2/bEiKfJLdz7UwF4cFUgKimZikzfbVWPmg74Cf5ntEu4ppnXMtxQ==';
+
+    'ayates': fullname => 'Andy Yates', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAzD4qFloI1MyJ4qaks0SNqT6Y8W5n2K5o7DAFDqc8gt+g4ECPfjnaksEirFAku4vp4O7Xv+cjPzDET1eHPPDPegaaEs3ZHJtUf6SzrF59IOzI2PX8HZiYs4UnfB1sh9dlHpSLQ1sOblxPn7VfMd+CXZ7iAnSZ4iwCGGAlNTVGXHBk9BtYemRtQLNLRaucLj+e2lH8j50XIg0i2tMubpxdZrxynTpySkrVPejd0fmQKFMpq5Yn122nmKp+1iaAtnM1X8JUO9FRy28F+kmoY9ilNfQXh0AVqnnnjhtRUq6zKnRMWgq/He/mSzdf16J+Psgf3aVoBFq/tecxBQJgRNpDcQ==';
   }
 }
