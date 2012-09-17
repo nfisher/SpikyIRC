@@ -65,5 +65,7 @@ class users {
     'pdowney': fullname => 'Pat Downey', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA21UcaXzHeWbOBa9vnxYtkIu6ugdV2E7/MFDpGGnooAql+s4LED41CTbiF2ECqwzpdPN5ty+wo/rhTStj8v73Ob188V6PMVXMGllT4lKtsAjPM+Rxy3HDh63syAIxXP3NbjZY+dKB6BorEuCEdXnpep8PycmcCMxqUf+cTwSMwW84Xqb/V6xIft2HyceRrIY2g7gPKpOewRbZ6DCQUPBt21Sfn2rc/18O6c8viQ5EI2yhebzPc0DMrl8NiiOyDnIsEefFSSqZ8m610zOXxqqFfTrqYhdXq6HkcJ2/bEiKfJLdz7UwF4cFUgKimZikzfbVWPmg74Cf5ntEu4ppnXMtxQ==';
 
     'vhasus': fullname => 'Suhas Vishwanath', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDDogJk0g3K/mBiCmHmQtL3JLivcrOu5CDUDXApmf33hR6ImcAbFT2oB/6Dw8u1WYRrccTYZNz494GfQtTnL6eNpCMmeo3IfrkvwcMKhtWJGsZRjl03sOeLKg8cL6ECzG3aL4sK/GoPqi7w8wi7f96nI2clAUKWQ0TbpU+JAVtMyoyuGQI34QFD7kHH1bhzgNIvxWqWESSB4RLPVxp4m9hBIfFu3GSB08AkiU8ah5clxB9m+wFJVzIdAGNaUQVvUgn0Yck3thfdYQtHRjFtmPEttLBkSrH/kIQBBt9eUgt24BVw0AMUEEqE41I1YaEslIt5x1BOC6vY1AqzRTXG+2iz';
+
+    'ayates': fullname => 'Andy Yates', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAzD4qFloI1MyJ4qaks0SNqT6Y8W5n2K5o7DAFDqc8gt+g4ECPfjnaksEirFAku4vp4O7Xv+cjPzDET1eHPPDPegaaEs3ZHJtUf6SzrF59IOzI2PX8HZiYs4UnfB1sh9dlHpSLQ1sOblxPn7VfMd+CXZ7iAnSZ4iwCGGAlNTVGXHBk9BtYemRtQLNLRaucLj+e2lH8j50XIg0i2tMubpxdZrxynTpySkrVPejd0fmQKFMpq5Yn122nmKp+1iaAtnM1X8JUO9FRy28F+kmoY9ilNfQXh0AVqnnnjhtRUq6zKnRMWgq/He/mSzdf16J+Psgf3aVoBFq/tecxBQJgRNpDcQ==';
   }
 }
