@@ -79,5 +79,7 @@ class users {
     'olabini': fullname => 'Ola Bini', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAvoPem4sP/mvtXkZuILrxCkEmxHm7e0isdd/vKkOcodR3OoVIFxZGT42LpGC17GAOmJfobUTBNAIZKKdag+qlwXSclkqRHaKKc8EWU5b0MKsg6CPcbm0rcHpPxQ07shR8MDXqD2AI9fgxvMoKfEVQW/HmZDc1BJA/IyuQP/Qrx2zAaTkU1ZsWQK1hgb/3fJkt3e7GmYjeZr1p2UHvxkurOOCAFtz54XzvT/Vvjt1+AYpp6Bmxe6oD49B8KnjTURQepmzbapl4HrvcNBTlcyPAIDhC4COrfZm40wnpObfo6WZdN/6z662zp9vi0ZwfcOqq2B3opKt+o8KxE/MAmGruCQ==';
 
     'gbrooks': fullname => 'Graham Brooks', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAsREYz4cCfQyr4GB/veOGFzGCVtkBxzqoAO72ycEqjpc5Ko577/QaUwNGmomfuzgd+DfM9XA4WwXf19Hr0MIMjfg+rqjCblszo4E7unt4Jrp5QDAbAoNM7U2Mvj9lNgmEtZT88d4OtyQuWnXAu3r895AhqIdc7OYghALAQXgaoZKMbwarR/WvmsieFw1uZ/0im/AeuBczi2EcXFVI35REd3+Fijm0KWOx5Xwckn7tYccdKw5vLZJONEZF0PVwgKgcGz6KOfAZ0cBDTNFQltk9MZ2ocM/I79uzCt46mXtkjPnvnLlaoR8KQMIpoSV+N7kyo+Mx7OXHwf1XTG1vWRjVlw==';
+
+    'ocelots': fullname => 'Ocelots Robot', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDgcwmoskr0wiMeS7dunSBjw19SfDr4dqTKRo+AyrRY+alCVCm6o/WymP+MAHdvLU7HLTcqXFzJE7FJJIeltWMaMYmM+RX8P5UeL2p2a5H4elLU66rZ+z5DagkCOvy81ZQX/gZ+zOoIOk2rt6EQ4lDAq6u6HKeHSnjBWTz0zTmCQyrcOTFPp8r/VdQ3K5oivtg2iPq9QaTxcnU2PisU9BmJNm3ednLBJ0hoXyh4TnF7KvI03vTT0vv+TOoYu5vMOiuKJL1BWw1k1oOvbSzRMXu/ZPVdc0WraKU8gUsSJg9SvAnIBEzabDwT/HLwjkOuUius6xP2ewkIHncm4OqiqB3h';
   }
 }
