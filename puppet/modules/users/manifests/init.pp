@@ -80,6 +80,6 @@ class users {
 
     'gbrooks': fullname => 'Graham Brooks', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAsREYz4cCfQyr4GB/veOGFzGCVtkBxzqoAO72ycEqjpc5Ko577/QaUwNGmomfuzgd+DfM9XA4WwXf19Hr0MIMjfg+rqjCblszo4E7unt4Jrp5QDAbAoNM7U2Mvj9lNgmEtZT88d4OtyQuWnXAu3r895AhqIdc7OYghALAQXgaoZKMbwarR/WvmsieFw1uZ/0im/AeuBczi2EcXFVI35REd3+Fijm0KWOx5Xwckn7tYccdKw5vLZJONEZF0PVwgKgcGz6KOfAZ0cBDTNFQltk9MZ2ocM/I79uzCt46mXtkjPnvnLlaoR8KQMIpoSV+N7kyo+Mx7OXHwf1XTG1vWRjVlw==';
 
-    'mneedham': fullname => 'Mark Needham', key => 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAmyVxx/ZgiTUUL6/+3+g79wLqaq1XMoAldO7jxGt1p69w+3IktMEm5hD/klm/HR3FeUJmXboEFxpQwduv63qSHZ/VmtYmbS5+XjL5xRHwAcKpQwWj4uv0/d84XkA+33hKxLszUxIu3dZJBc7z9ZIVvVXXmJmSj5dEz3aiA8GHzHiOz9kI6Vm07clP5fHCJKh4o/u8imoTvbldc4Qm2lrugnwk3hkCwVIY5BDRwek7voZAEM98CPiqDqlJJUo3uR0HaCIPdo+M1gUKa0b3zIb/Z9yLWG686J2K+GfWDIADTJRzcY1esoH5VBsusGIH365NDzl7wS7Qbz82LqBHwTajLQ==';
+    'mneedham': fullname => 'Mark Needham', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAmyVxx/ZgiTUUL6/+3+g79wLqaq1XMoAldO7jxGt1p69w+3IktMEm5hD/klm/HR3FeUJmXboEFxpQwduv63qSHZ/VmtYmbS5+XjL5xRHwAcKpQwWj4uv0/d84XkA+33hKxLszUxIu3dZJBc7z9ZIVvVXXmJmSj5dEz3aiA8GHzHiOz9kI6Vm07clP5fHCJKh4o/u8imoTvbldc4Qm2lrugnwk3hkCwVIY5BDRwek7voZAEM98CPiqDqlJJUo3uR0HaCIPdo+M1gUKa0b3zIb/Z9yLWG686J2K+GfWDIADTJRzcY1esoH5VBsusGIH365NDzl7wS7Qbz82LqBHwTajLQ==';
   }
 }
