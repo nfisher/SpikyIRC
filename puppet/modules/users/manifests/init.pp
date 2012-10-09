@@ -102,6 +102,8 @@ class users {
     'bird': fullname => 'Chris Bird', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQChol7tcer9YT9q+dwt7acDC4R9FObnEiUfhoTzvzn1jfJUZ8NwjLwNJnk8rgATJBOORH11cY13A6qvd82pDEwUERLvG/Xj8UpVka7/fYu6ZIwaHEZZxC6PcgQNzwoDSFFv4hy0RNkZPn/na1W7Oo+pWEozVw2KMNgQRvyb4Ibj+9ugVz0dgq1hK0lpumWkGL/EWbEO02xty5OKaS+sIsGUTxBkwtWFdkVaISraAtNOA84WGe21kU5gb81fFOD/w3VpO4suNMj0URxYAvnMrNMHoIE63vZaUTOKlCzSB5eEYxU2ye9gQox1Nu+sylZr+Id3LSIhZBCCBXn+9GlX912/';
 
     'cburgmer': fullname => 'Christoph Burgmer', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDDyRg+LYRQvV+s4nmaYfOXczV82rX9A0Dj8Eleiv7MOvPUtXUqQgpqk+MEcr69kA8kolnBTcfVdWz7jUQsYK7PKgSyYSxRpJ2JuJUjo4b0RpJ0PX/PY7HYSr0wiv369TH+Y2PN4JfeVwCfcJ6BCJbfxwCp83AarS6LsL7gJVV61lgKQG91oInOYJpY5VGC7G/8ILvDVODLEqrZv+E1bBPwtr4regNBppi5Q/tRG7pgIjMRG9CNJ/Zq4SIYQmhQW+x/RO2TRf6WwwG60I1ufpw9wPznVN7gYX2qpm3PGDfS6cq5XiS9MVPemooiGGxtQ10pHap9M1cUdj8As9K/orsn';
+
+    'tomduckering': fullname => 'Tom Duckering', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAqvmMy6jgk6V7RVHTBjKWywXRrOyfKw18wc+vObNoYGH9bqxJpfwzUI6dJiogGz+Md9fkZuIB38FjPsu6wabgApP+fqDaMGxFsaPRXRcBJhcvTjajb+dmIrfHTIu/YR0BQCfh/0UbWCemOs+6sUsipYfw5awS3MVjCLoBrmgWKGzRaxeZ54mWwGZWg2m2DPFDOTfUHGNs4RDMsxIlvHbRGleevG1IMimhznktZNcRMjg79m7HS3tsAlaSdyWUeo8/BWBi5OLmR0uy9dSXGWlzQxP99Ft6pwnBlI1zm5rHKYW6yYslNSDDMpwVrY5fB4mkjmbakyVw6pVx0r0E0E90cw==';
   }
 }
 
