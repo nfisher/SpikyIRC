@@ -11,7 +11,7 @@ fi
 
 cd $WORKSPACE
 
-  git fetch > $CHANGE_FILE 2>&1 || true # absorb the return code
+  git fetch > $CHANGE_FILE 2>&1 || true # absorb the return code with true
 
   if [ -s $CHANGE_FILE ]; then
     sh commit.sh
