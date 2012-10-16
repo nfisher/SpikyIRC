@@ -116,5 +116,7 @@ class users {
     'sriramgoteam': fullname => 'Sriram Narayan', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAyVrvwu5stPRvIus4qNNBmkE/O5RR9Lj9NETjm2byJfj0p06ppInm9VuOocIsAm9na7Vhv4kkte0UVhpuHfNNhwbELcCk6NhobHC64Oia1+95JDcvbSz2ggwvXp/Jv/wTZwYbaAV7/LcVlMFUszzo1Fo/Kj5lmBY8UNKxey3EaPcSuG8NN7tAysxwtxtvSHSYSdJ82wZsRHdpMCdCLE6jY/IgowfFcBZ4HfeZKlvhE+TOKACnfb8HbhCyNDywkcYuBSA1hCjkCi3crivCxQcmdxJ757uYN1SzPiK6OPijyMW4ChLVPEqqLHanik0dthnBIla6hESN5ZJlHXUYw8qMFw==';
 
     'ketanpkr': fullname => 'Ketan Padegaonkar', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAyBUL6IYBOakglitnGH6JUcVG1plQ9WZ6gWz68RVs2PFqNlWtTvfIuk1w2UfX8TVg/1dQhbuSLnU7JfsG2Kk05FnRb5deQwXl8vyINW71MWyWVneSajs+IuEkWjD6kxo2FSkcJS/P5FIhNMA2UjK7a9lOiKaUF16gfVXdCxkFjdnzcUbSYpK68Z0vecBqfhZgdDc2Kll6+FYsZheA5SXV5SqhOfQk2UW+XPg/TYBKwo0M3JRIlMwA6GbH+8uePB9laGnJGJhATzvwlevNhzc5F6MMfUcG9AtL8ZFzpMOKGlTUjBi+ZPKQwW7XDft9ITshSjZZlhYmHyGdTCcVLNkufQ==';
+
+    'mcook': fullname => 'Megan Cook', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDscVtfiqkmuKxkouQTPm9d1KKGt1a89Pg6nL8GggrzzWAVRGwHYGwq1DEyJ34JCYfkcPWWnZz8pah0hvo2LIcO2kSpicvskY37+WLVDRf69DH0TAVZ6NgEFLQj3UGr5/B36sC+shkn+NMHl2nkUo+ZI8d5ELwgUa5zgAw6uyhcB40TgRJrV0//HdNrngRK6eA+52RwCue+BtnvgAK7YbpUpmPm20kH3zYwgwSj9/BQQCcREaB+oz9kFEieHm7oUKhzNeLJhCAJVtq7r2sM5+EHwH+d+JipX27nPPVCJV2F0L/I47L8v1+yL67dmkRo/bshIn9M1ELgoFDhJMSr1k1Z';
   }
 }
