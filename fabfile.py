@@ -34,7 +34,7 @@ def apply():
   Upload and apply the puppet manifests.
   """
   upload()
-  sudo("puppet apply --verbose --evaltrace --summarize --color=false --show_diff --modulepath=/etc/puppet/modules /etc/puppet/manifests/site.pp")
+  sudo("puppet apply --verbose --summarize --color=false --show_diff --modulepath=/etc/puppet/modules /etc/puppet/manifests/site.pp")
 
 def bootstrap():
   """
