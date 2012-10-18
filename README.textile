@@ -9,3 +9,7 @@ This is a spike to put IRC behind SSH based connections.  Primary dependencies a
 Fabric 1.4.3
 Vagrant 1.0.3
 VirtualBox 4.1.x
+
+h2. Users
+
+For access, add your public key to /puppet/modules/users/manifests/init.pp and submit a pull request.
