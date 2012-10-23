@@ -21,6 +21,21 @@ class users {
     require => User['deployer'],
   }
 
+  # The user used to provision the users from the bouncer app
+  user { 'bouncerprovisioner':
+    ensure     => present,
+    managehome => true,
+    groups     => 'wheel',
+  }
+
+  ssh_authorized_key { "bouncer_provisioner_key":
+    ensure => present,
+    key    => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDLT2Z1kNmeNbfXWDGtwei4TOl/tgW8RuyEp8FVsjkoVNfqNSUOEFhyYekjh/y5TYC95i6kZrBvKIsXO9TCmQ0kxRrhLwvwMMXLAF8QTs60bote6ExRL1pSNwmYP92wUpnJ7o5zMSUH9Pm3HKeAMSQ6sLZYNZ9VKtU07/zFbQfYKVBVd1pRjr/atpJ0Z9qkiYQbzqLyQUoKCQvdastsk2VHzgXdYnErhYH0E+Bg/1MqEVUZ/VpYirRe0FiKXzdtRq1O/cYzgOHtq1rNCcr/jzOGqHD4FsCJ29Jamksk7jfNC0wvUT0uPdkO0gDm3gMU3gCVTO3BJn0kTSFNkBNm9qC7",
+    type   => "rsa",
+    user   => "bouncerprovisioner",
+    require => User["bouncerprovisioner"]
+  }
+
   users::irc {
     'nfisher': fullname => 'Nathan Fisher', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC5U2M4XmaFit2AMOtrP01im9mkmizrl7heUq8KXXN+BFYLj8GMKTQSWpfb8uB7enh8KKuqhZLQ4FXAxY+j11UTDWmSAS/TMrj30YT6ZpKvKKO8S+ossqxoYaACiS2oTVVOtwkcoaP+S3uRjmH4crIOhuYiGbzGt0XLyDv9aH2J8bVWqcWw31P5NjzTAKWNhNfxFOVdRUissUPTxndgzow2KXJ51c50zWMM97rufseznqvTOFMrcHag7QEcxe1LCKw/5RkUD8exAn336Hpcq57ipJvVb5jU6Yz21QIGuQgsJ6c07BASGGnDqQljO4NCVdR/ftszvQ56s8gUPqe/bkUx';
 
