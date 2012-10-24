@@ -10,6 +10,7 @@ node default {
   include irssi
   include ssh
   include users
+  include sudoers
 
   # TODO: This is a pants way to manage what's run against Vagrant.
   if "localhost.localdomain" != $::fqdn {
