@@ -161,5 +161,7 @@ class users {
   'dchetwyn': fullname => 'Daley Chetwynd', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDOlVGDseV5YQK5329jP/yKi2O8TWlLwPevjC8jUtMP1RgaVTfiqVRw7Da07pIHiSnFTHnXwcCGt/zU2DJ6DIirMZ4SgLzgRkR5FUycQblqTJz0+/mlkcIBjXopPh7H6Te4b9DSRfjzXqf9WvjAud6reEpWyoFRGkRokEIA04Ga1QQtzlsTuGDA2r/zloPfent/9CiPH+x8CS4RMdzP2H5QPl/xA20Qh9aoDkavtwvYTV2mAdSWpwx29yZmRl6XOj3ad5SfH3yQ/p2YVJI9JWEh/xvxjgB1xB5Z+KlPakCHzeYXbEjAXdhTc9xL53+LlrZq6k6OV0tfRYO04j99lK2z';
 
     'bguthrie': fullname => 'Brian Guthrie', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAqv30Clr/UEnI2v8rYXg+WoqLS3UP50MEOqGoBjwAsjU4zj3YkmyusO76mL5GniuUlCxC/N+rVvMVdKuw5sKNR5LVNniqr5fEIcRgYry0xBqAmd/1w0Kkv4zFfMO9IAq7Vnyq7HUT8CUbT3Jnq4vrg8rybxScF5mVG229tyU5PDY0vno3CqXEbTS0oegqWX6iLej2deqbUCLqBucuGrvW1PLuA2vdjhygH9uVK+ZkeygQHA1fgDvGbeX9zGF0M3s6PfsUVfLQSbs7u8jhVlqZAh9TgQPEsmbIXiuJ/rEIVppO2mYUPzUkO0nLIez2DdeXYkaBqbX33bWNHjDNLdvN3w';
+
+    'sriki': fullname => 'Srikanth Seshadri', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCnLmyc784Q7YpRRbt+cqRNyHt6h4dfTFh4NU+RTZqPf/wRSHPoXaVdG1HruthlEniP6sEhW20g2BnlwDPNlRl8+o58vp/1CWKeEso3aveOi0qp4sTyya8beVStfgtaHav4JlgOVYF3cnBF3hYZjO1LTcMIlwveAEHFxdlj7OJkpA6/egGAjoCTJSoQpRBQr+GreCWcVfpkW7nNF05ROCTPAKZQxWFMQLVENzQdJeI9GUUUVVWTNFZszRbPbtOczPizA/njjsILsIDqFxUK+9gzo91mS3WXWQBbsLWVWVTha6U84zJX7/meveeJEOwB/+BrmW7clrRVqnQvqOdZgB6N';
   }
 }
