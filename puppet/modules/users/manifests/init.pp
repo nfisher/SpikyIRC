@@ -165,5 +165,7 @@ class users {
     'sriki': fullname => 'Srikanth Seshadri', key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCnLmyc784Q7YpRRbt+cqRNyHt6h4dfTFh4NU+RTZqPf/wRSHPoXaVdG1HruthlEniP6sEhW20g2BnlwDPNlRl8+o58vp/1CWKeEso3aveOi0qp4sTyya8beVStfgtaHav4JlgOVYF3cnBF3hYZjO1LTcMIlwveAEHFxdlj7OJkpA6/egGAjoCTJSoQpRBQr+GreCWcVfpkW7nNF05ROCTPAKZQxWFMQLVENzQdJeI9GUUUVVWTNFZszRbPbtOczPizA/njjsILsIDqFxUK+9gzo91mS3WXWQBbsLWVWVTha6U84zJX7/meveeJEOwB/+BrmW7clrRVqnQvqOdZgB6N';
 
     'ascott': fullname => 'Adam Scott', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAtkZabTxGhsgNIf8M9vqFuzdeQGRfuhBe/5snMZ7dLtDnYlvNWlElom8JJkTcPz0KtI6homDeZJZlqtTnq2Ruonr70c29pu9C8HnVKITLj50zWhfKEtOVxPlyiysR5jibVJfkIXnl1eDk0yrlGg/jToOAkaWciZ4VGQJqKiY9DMGQ0Ju9+XbvpGKqeiWnKwlqZfriQ5MO+pEgaVfk29g236mxiy2KhQVfXObcEtp61aSd32u4Nwy4oNv4rf8sdtdyoWt5cdQ8Bb71amb8THifRomG0K/vP8fCYUPhtHchVeedrrgXgxvmB3HB10yRxj9rJB195FAgUzVZ2CPNc0A2aQ==';
+
+    'jarnold': fullname => 'Jim Arnold', key =>'AAAAB3NzaC1yc2EAAAADAQABAAABAQCYT1SS8WrU4jJ6FZX/Sl5FfB4mRC3nc6m3PdGY+uQU93zLjxaq4nP302S+Zpc4lPM/bR8T+PWs4RzjFvOg8WnOaGQRrXhu7Ip2OYy/ixWSv430Zj5jxf/kXYZkjmqZC4LO12JjgZ3TcEMhJSgUzdH/UVDk1T2xGyfI0jW7LAEg9nEL7XJ6avoH/C+MWJpgXWqfLOuvATQYfK3GSnIU+i7yuTyaMbkOHDuTNlVMebRPFIcpsDwphl8X65M9C8wj1WBt99lIIP4STpoybKhp8/8/9F8hj0rS92ZtwuzhMxPdaAY19Z9m4KAQkZxLs3r2r+GaUqWc2GTpie/HwUOHEMWp';
   }
 }
