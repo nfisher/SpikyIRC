@@ -166,4 +166,7 @@ class users {
 
     'ascott': fullname => 'Adam Scott', key => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAtkZabTxGhsgNIf8M9vqFuzdeQGRfuhBe/5snMZ7dLtDnYlvNWlElom8JJkTcPz0KtI6homDeZJZlqtTnq2Ruonr70c29pu9C8HnVKITLj50zWhfKEtOVxPlyiysR5jibVJfkIXnl1eDk0yrlGg/jToOAkaWciZ4VGQJqKiY9DMGQ0Ju9+XbvpGKqeiWnKwlqZfriQ5MO+pEgaVfk29g236mxiy2KhQVfXObcEtp61aSd32u4Nwy4oNv4rf8sdtdyoWt5cdQ8Bb71amb8THifRomG0K/vP8fCYUPhtHchVeedrrgXgxvmB3HB10yRxj9rJB195FAgUzVZ2CPNc0A2aQ==';
   }
+	'lpower': fullname => 'Lucy Power', key =>
+	'AAAAB3NzaC1yc2EAAAADAQABAAABAQCryXYPb+oA0i+gDun1zV7QEGGUjcYKYbweeBvID+HsxRV9/zIBUhQD0VpahrSyXTjJ/p3lG7n8kLfBVNtAYuQXu5Vlt/iU4uhtI6iWUhU4LpdDvXXtcg+a9J5ATx4BTVQK7IIjsHN8N/6cNb57yUac49mVP7d/VdVoUVF6akCu7kI4V0hmBVYoORpnhfo/dlVNoj+0/DRwpfKPSiaZbmvlC4JUxCjMk5QwX0mtYhhHhjFRGhKBjniKrai3TLBHFMHp6T+9hF3VaYgCgVsC4/DTW1G5UnqYaFVFafS6l3xH9iXCQlz8hqk8uZyC4423oADLcm9+trXFjNKyAGoJfcK9';
+	
 }
